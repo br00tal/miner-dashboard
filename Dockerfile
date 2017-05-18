@@ -1,5 +1,4 @@
 FROM mhart/alpine-node:4
-MAINTAINER br00tal@killfest.org
 
 RUN apk add --no-cache git \
   && mkdir /app \
